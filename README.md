@@ -1,2 +1,2 @@
-# cakephp-assets
-CakePHP Asset Plugin
+# cakephp-asset-library
+CakePHP Asset Library Plugin
