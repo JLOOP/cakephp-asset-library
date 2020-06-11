@@ -1,5 +1,5 @@
 {
-  "name": "JLOOP/cakephp-asset-library",
+  "name": "jloop/cakephp-asset-library",
   "type": "cakephp-plugin",
   "description": "CakePHP 4.X plugin for managing asset uploads",
   "keywords": ["cakephp","asset"],
