@@ -7,5 +7,6 @@ Router::plugin(
     ['path' => '/asset-library'],
     function ($routes) {
         $routes->get('/assets', ['controller' => 'Assets']);
+        $routes->post('/upload', ['controller' => 'Assets', 'action' => 'upload']);
     }
 );
