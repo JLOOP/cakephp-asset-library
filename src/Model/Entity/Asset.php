@@ -2,6 +2,7 @@
 namespace AssetLibrary\Model\Entity;
 
 use Cake\ORM\Entity;
+use Cake\Routing\Asset as CakeAsset;
 
 class Asset extends Entity
 {
@@ -15,10 +16,10 @@ class Asset extends Entity
     ];
 
     protected function _getPath() {
-        return "/files/assets/{$this->id}.{$this->extension}";
+        return "/assets/{$this->id}.{$this->extension}";
     }
 
     protected function _getUrl() {
-        return Cake\Routing\Asset::url($this->path, ['fullBase' => true]);
+        return CakeAsset::url($this->path, ['fullBase' => true]);
     }
 }
